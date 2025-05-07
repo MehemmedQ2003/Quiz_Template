@@ -1,0 +1,1931 @@
+[
+    {
+        "id": 53,
+        "question": "What happens when you use this 'kill %s' command?",
+        "description": null,
+        "answers": {
+            "answer_a": "System processes will be stopped",
+            "answer_b": "All jobs with command beginning with ‘s’ will be terminated",
+            "answer_c": "The last job with 's' will be terminated",
+            "answer_d": "The first job with 's' will be terminated",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_b",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 674,
+        "question": "Which of the following command can give documentation of a command?",
+        "description": null,
+        "answers": {
+            "answer_a": "man",
+            "answer_b": "info",
+            "answer_c": "doc",
+            "answer_d": "show",
+            "answer_e": "help",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            },
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 706,
+        "question": "What is the purpose of ‘at’ command?",
+        "description": null,
+        "answers": {
+            "answer_a": "To execute a command/commands at a specific time.",
+            "answer_b": "To execute a command/commands at a specific request.",
+            "answer_c": "To execute a command/commands on a specific condition.",
+            "answer_d": "To execute a command/commands only when the user has logged in.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            },
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3132,
+        "question": "Which command is used to reboot the system in Ubuntu?",
+        "description": "Rebooting the system is often necessary after updates or configuration changes.",
+        "answers": {
+            "answer_a": "Use 'sudo reboot'",
+            "answer_b": "Run 'restart-system'",
+            "answer_c": "Type 'bootagain'",
+            "answer_d": "Use 'powercycle'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To reboot the system in Ubuntu, use the 'sudo reboot' command.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3206,
+        "question": "Which command allows you to remove a user and their home directory in Ubuntu?",
+        "description": "Removing a user and their home directory helps in freeing up space and removing user-specific data.",
+        "answers": {
+            "answer_a": "Use 'sudo deluser --remove-home username'",
+            "answer_b": "Run 'userremove username'",
+            "answer_c": "Type 'remuser -all username'",
+            "answer_d": "Use 'delusr -dir username'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To remove a user and their home directory, use 'sudo deluser --remove-home username'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3194,
+        "question": "How do you remove a broken package in Ubuntu?",
+        "description": "Removing broken packages helps in maintaining a stable system and resolving dependency issues.",
+        "answers": {
+            "answer_a": "Use 'sudo apt --fix-broken install' and then 'sudo apt remove package_name'",
+            "answer_b": "Run 'pkgfix remove package_name'",
+            "answer_c": "Type 'apt-repair package_name'",
+            "answer_d": "Use 'fixremove package_name'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To remove a broken package, use 'sudo apt --fix-broken install' followed by 'sudo apt remove package_name'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 536,
+        "question": "HTML documents are saved in",
+        "description": null,
+        "answers": {
+            "answer_a": "Special binary format",
+            "answer_b": "Machine language codes",
+            "answer_c": "ASCII text",
+            "answer_d": "None of above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3102,
+        "question": "Which command is used to check the version of Ubuntu installed?",
+        "description": "Checking the Ubuntu version helps identify the distribution and its compatibility with software.",
+        "answers": {
+            "answer_a": "Run 'lsb_release -a'",
+            "answer_b": "Use 'cat /etc/ubuntuversion'",
+            "answer_c": "Type 'ubuntu_version_check'",
+            "answer_d": "Use 'ver_ubuntu' command",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To check the version of Ubuntu installed, you can use the 'lsb_release -a' command.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 14,
+        "question": "What command is used to clear up the command prompt window?",
+        "description": null,
+        "answers": {
+            "answer_a": "clearit",
+            "answer_b": "clrwin",
+            "answer_c": "clear",
+            "answer_d": "clrscr",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_c",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 731,
+        "question": "How to compares the current state of the cluster against the state that the cluster would be in if the manifest was applied in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl show -f ./my-manifest.yaml",
+            "answer_b": "kubectl log -f ./my-manifest.yaml",
+            "answer_c": "kubectl state -f ./my-manifest.yaml",
+            "answer_d": "kubectl diff -f ./my-manifest.yaml",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1080,
+        "question": "Which command do we need to use if we want to see all packages installed on the system (Ubuntu)",
+        "description": null,
+        "answers": {
+            "answer_a": "dpkg -l",
+            "answer_b": "packageall -l",
+            "answer_c": "dpkg -a",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 1078,
+        "question": "If you see a directory with the following permissions `drwxrwxrxt`, would you be able to remove it?",
+        "description": null,
+        "answers": {
+            "answer_a": "Only the owner of the folder can remove this folder",
+            "answer_b": "Yes, we can remove it from any user",
+            "answer_c": "We can remove it with the root user",
+            "answer_d": "We can remove it only using the root user",
+            "answer_e": "No, this folder can't be remove.",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 673,
+        "question": "Which command can be used to make variables of shell to be made available to sub shell?",
+        "description": null,
+        "answers": {
+            "answer_a": "import",
+            "answer_b": "export",
+            "answer_c": "echo",
+            "answer_d": "set",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3277,
+        "question": "How do you create a custom GRUB boot entry in Ubuntu?",
+        "description": "Creating a custom GRUB boot entry allows you to add new boot options for different kernels or operating systems.",
+        "answers": {
+            "answer_a": "Edit '/etc/grub.d/40_custom' and add the new entry, then run 'sudo update-grub'",
+            "answer_b": "Run 'grub-add entry'",
+            "answer_c": "Type 'bootentry create'",
+            "answer_d": "Use 'grubcfg -custom'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To create a custom GRUB boot entry, edit '/etc/grub.d/40_custom' and add the new entry, then update GRUB with 'sudo update-grub'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 3332,
+        "question": "How do you reboot the system in Ubuntu?",
+        "description": "Rebooting the system is needed after applying updates or changes that require a restart.",
+        "answers": {
+            "answer_a": "Use 'sudo reboot'",
+            "answer_b": "Run 'restart-system'",
+            "answer_c": "Type 'reboot-machine'",
+            "answer_d": "Use 'system-restart'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To reboot the system, use 'sudo reboot'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3119,
+        "question": "How do you remove an empty directory in Ubuntu?",
+        "description": "Removing directories helps in cleaning up unused folders in the file system.",
+        "answers": {
+            "answer_a": "Use 'rmdir' followed by the directory name",
+            "answer_b": "Run 'del-folder'",
+            "answer_c": "Use 'removedir'",
+            "answer_d": "Type 'rmfolder'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To remove an empty directory in Ubuntu, use the 'rmdir' command followed by the directory name.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 683,
+        "question": "Expand UFS in context of file system?",
+        "description": null,
+        "answers": {
+            "answer_a": "UNIX File system.",
+            "answer_b": "Linux File System.",
+            "answer_c": "Plain File System.",
+            "answer_d": "Linux Failing System.",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            },
+            {
+                "name": "Linux"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 650,
+        "question": "Which command is used to copy file across different system?",
+        "description": null,
+        "answers": {
+            "answer_a": "rcp",
+            "answer_b": "scp",
+            "answer_c": "mcp",
+            "answer_d": "ncp",
+            "answer_e": "rsync",
+            "answer_f": null
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "true",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "BASH"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3276,
+        "question": "Which command allows you to export the entire list of installed packages in Ubuntu?",
+        "description": "Exporting a list of installed packages is useful for backup or replicating environments.",
+        "answers": {
+            "answer_a": "Use 'dpkg --get-selections > installed_packages.txt'",
+            "answer_b": "Run 'pkglist export'",
+            "answer_c": "Type 'exportpackages -all'",
+            "answer_d": "Use 'dpkg-list -output'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To export the entire list of installed packages, use 'dpkg --get-selections > installed_packages.txt'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 9503,
+        "question": "In Linux, what is the purpose of the 'chmod' command?",
+        "description": "Understand the role of file permissions in Linux systems.",
+        "answers": {
+            "answer_a": "Change file ownership",
+            "answer_b": "Change file modification time",
+            "answer_c": "Change file permissions",
+            "answer_d": "Change file content",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The 'chmod' command is used to change the permissions (read, write, execute) of files and directories in Linux.",
+        "tip": "Remember 'chmod' as the command to modify file permissions in Linux.",
+        "tags": [
+            {
+                "name": "Undefined"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3550,
+        "question": "How do you permanently disable IPv6 in Ubuntu?",
+        "description": "Disabling IPv6 can help if there are network compatibility issues or if IPv6 is not needed.",
+        "answers": {
+            "answer_a": "Edit '/etc/sysctl.conf' to add 'net.ipv6.conf.all.disable_ipv6=1' and run 'sudo sysctl -p'",
+            "answer_b": "Run 'ipv6 disable'",
+            "answer_c": "Type 'network-disable-ipv6'",
+            "answer_d": "Use 'turn-off-ipv6'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To permanently disable IPv6, modify the sysctl configuration and apply the changes.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 875,
+        "question": "If the Plesk server can't run Docker locally, you can still connect to a remote Docker server to manage containers. You'll need:",
+        "description": null,
+        "answers": {
+            "answer_a": "A virtuozzo 6 container",
+            "answer_b": "One separate ready-to-code environment",
+            "answer_c": "A Windows Server",
+            "answer_d": "The Plesk Docker extension",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3485,
+        "question": "How do you change the permissions of a file to read-only in Ubuntu?",
+        "description": "Changing file permissions helps in controlling who can read, write, or execute the file.",
+        "answers": {
+            "answer_a": "Use 'chmod 444 filename'",
+            "answer_b": "Run 'perm-set read-only'",
+            "answer_c": "Type 'set-file-permission readonly'",
+            "answer_d": "Use 'file-perm change'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To change the permissions of a file to read-only, use 'chmod 444 filename'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3533,
+        "question": "How do you configure a persistent static route in Ubuntu?",
+        "description": "Configuring a persistent static route allows the system to retain the route information across reboots.",
+        "answers": {
+            "answer_a": "Edit '/etc/netplan/*.yaml' to add the route and apply changes with 'sudo netplan apply'",
+            "answer_b": "Run 'route add-persistent'",
+            "answer_c": "Type 'set-static-route'",
+            "answer_d": "Use 'netcfg static-route'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To configure a persistent static route, edit the Netplan configuration and apply the changes.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 9461,
+        "question": "You are troubleshooting a Docker container that is failing to start due to a port conflict. What steps can you take to resolve this issue?",
+        "description": "Scenario-based question focusing on troubleshooting a common Docker problem.",
+        "answers": {
+            "answer_a": "Check if another container is using the same port",
+            "answer_b": "Change the port mapping in the Dockerfile",
+            "answer_c": "Use a different host port for the container",
+            "answer_d": "Stop and remove the conflicting container",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "Checking for port conflicts with other containers is a common step in troubleshooting Docker networking issues.",
+        "tip": "Use 'docker ps' to list running containers and their port mappings for easier identification of conflicts.",
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 3480,
+        "question": "How do you change the file owner in Ubuntu?",
+        "description": "Changing the file owner is useful for assigning ownership to a different user.",
+        "answers": {
+            "answer_a": "Use 'sudo chown new_owner filename'",
+            "answer_b": "Run 'change-owner filename'",
+            "answer_c": "Type 'modify-owner filename'",
+            "answer_d": "Use 'fileowner set'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To change the file owner, use 'sudo chown new_owner filename'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 803,
+        "question": "How do you list all the running Docker containers?",
+        "description": null,
+        "answers": {
+            "answer_a": "$ -docker ps",
+            "answer_b": "$ docker --ps",
+            "answer_c": "$ docker ps",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3561,
+        "question": "Which command is used to view detailed information about a specific package in Ubuntu?",
+        "description": "Viewing detailed information about a package helps in understanding its dependencies and version.",
+        "answers": {
+            "answer_a": "Use 'apt show package_name'",
+            "answer_b": "Run 'dpkg-info package_name'",
+            "answer_c": "Type 'package-details'",
+            "answer_d": "Use 'pkg-info'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To view detailed information about a package, use 'apt show' followed by the package name.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3568,
+        "question": "How do you configure a static IP address on an Ubuntu system using the command line?",
+        "description": "Configuring a static IP address helps in setting a fixed IP that does not change.",
+        "answers": {
+            "answer_a": "Edit '/etc/netplan/*.yaml' and apply changes using 'sudo netplan apply'",
+            "answer_b": "Run 'set-static-ip'",
+            "answer_c": "Type 'ip-config static'",
+            "answer_d": "Use 'static-ip set'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To configure a static IP address, edit the Netplan configuration file and apply the changes.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 176,
+        "question": "What is the name of the enterprise-grade cluster management solution from Docker?",
+        "description": null,
+        "answers": {
+            "answer_a": "Docker Swarm",
+            "answer_b": "Docker Hub",
+            "answer_c": "Docker Web UI",
+            "answer_d": "Docker Universal Control Plane",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_d",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 831,
+        "question": "Which of the following is a cloud-hosted service from Docker that provides registry capabilities for public and private content.",
+        "description": null,
+        "answers": {
+            "answer_a": "Docker Swarm",
+            "answer_b": "Docker Cloud",
+            "answer_c": "Docker Hub",
+            "answer_d": "Docker Compose",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 867,
+        "question": "Applications inside the containers accept configuration parameters in the form of environment variables. These variables can tell the app to listen on a specific port but you can't use a specific password.",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 935,
+        "question": "Which command would show you the logs of a running pod in Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "kubectl print pod-name",
+            "answer_b": "kubectl log pod-name",
+            "answer_c": "kubectl show -l pod-name",
+            "answer_d": "kubectl logs pod-name",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3525,
+        "question": "Which command is used to add a kernel parameter in Ubuntu?",
+        "description": "Adding a kernel parameter can help modify the system's behavior during boot.",
+        "answers": {
+            "answer_a": "Edit '/etc/default/grub' and update GRUB_CMDLINE_LINUX, then run 'sudo update-grub'",
+            "answer_b": "Run 'kernel-param add'",
+            "answer_c": "Type 'modify-grub config'",
+            "answer_d": "Use 'set-kernel-option'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To add a kernel parameter, edit the GRUB configuration file and update GRUB.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 941,
+        "question": "What will happen while adding new API to Kubernetes?",
+        "description": null,
+        "answers": {
+            "answer_a": "Adding a new API will block the previous API",
+            "answer_b": "Adding a new API will remove some clusters",
+            "answer_c": "Adding a new API will improve the functioning ability of Kubernetes",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 810,
+        "question": "Once you’ve worked with an image, how do you push it to docker hub?",
+        "description": null,
+        "answers": {
+            "answer_a": "$ docker push <username image name>",
+            "answer_b": "$ docker push <username/image name>",
+            "answer_c": "$ docker --push <username image name>",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3545,
+        "question": "Which command is used to create a Btrfs subvolume in Ubuntu?",
+        "description": "Creating Btrfs subvolumes helps in managing snapshots and organizing data on Btrfs filesystems.",
+        "answers": {
+            "answer_a": "Use 'sudo btrfs subvolume create /path/to/subvolume'",
+            "answer_b": "Run 'btrfs-make-subvol'",
+            "answer_c": "Type 'create-btrfs-volume'",
+            "answer_d": "Use 'btrfs-subvolume new'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To create a Btrfs subvolume, use the 'btrfs subvolume create' command.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 821,
+        "question": "How many containers can run per host?",
+        "description": null,
+        "answers": {
+            "answer_a": "There can be as many containers as you wish per host. Docker does not put any restrictions on it.",
+            "answer_b": "There can be only 4 containers",
+            "answer_c": "There can be only 3containers",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 3473,
+        "question": "How do you switch to another user account in Ubuntu?",
+        "description": "Switching to another user account is useful when you need access to that user's permissions or environment.",
+        "answers": {
+            "answer_a": "Use 'su - username'",
+            "answer_b": "Run 'switch-user username'",
+            "answer_c": "Type 'login username'",
+            "answer_d": "Use 'change-user username'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To switch to another user account, use 'su - username'.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 3560,
+        "question": "How do you list all users on an Ubuntu system?",
+        "description": "Listing all users helps in managing system users and checking for unauthorized accounts.",
+        "answers": {
+            "answer_a": "Use 'cut -d: -f1 /etc/passwd'",
+            "answer_b": "Run 'list-users'",
+            "answer_c": "Type 'get-users'",
+            "answer_d": "Use 'user-list'",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "To list all users on the system, read '/etc/passwd' and use 'cut' to extract usernames.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Ubuntu"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9722,
+        "question": "Which element defines metadata that specifies the author of the HTML document?",
+        "description": "HTML document metadata.",
+        "answers": {
+            "answer_a": "<meta name='author'>",
+            "answer_b": "<meta author=''>",
+            "answer_c": "<author>",
+            "answer_d": "<document-author>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <meta name='author'> element defines metadata specifying the document's author.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9815,
+        "question": "What is the correct way to include an external JavaScript file in an HTML document?",
+        "description": "Practical question focusing on linking external JavaScript files to HTML pages.",
+        "answers": {
+            "answer_a": "<script src='script.js'></script>",
+            "answer_b": "<js src='script.js'></js>",
+            "answer_c": "<javascript href='script.js'></javascript>",
+            "answer_d": "<link rel='script' href='script.js'>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <script> tag with the 'src' attribute is used to link external JavaScript files.",
+        "tip": "To link an external JavaScript file, use the <script> tag with the 'src' attribute.",
+        "tags": [
+            {
+                "name": "Undefined"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9592,
+        "question": "Which HTML element is used to specify a footer in a table?",
+        "description": "Structuring HTML tables.",
+        "answers": {
+            "answer_a": "<tfoot>",
+            "answer_b": "<footer>",
+            "answer_c": "<bottom>",
+            "answer_d": "<tablefooter>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <tfoot> element groups footer content in a table.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9667,
+        "question": "What is the purpose of the HTML <track> element?",
+        "description": "Multimedia elements in HTML.",
+        "answers": {
+            "answer_a": "Embedding audio",
+            "answer_b": "Specifying text tracks for media elements",
+            "answer_c": "Playing video content",
+            "answer_d": "Tracking user input",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <track> element is used to specify text tracks for media elements, such as subtitles or captions.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9740,
+        "question": "Which HTML element can be used to define content aside from the main content (e.g., sidebars)?",
+        "description": "Semantic HTML structuring.",
+        "answers": {
+            "answer_a": "<sidebar>",
+            "answer_b": "<section>",
+            "answer_c": "<aside>",
+            "answer_d": "<div>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <aside> tag defines content related to the main content, typically displayed as sidebars.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9732,
+        "question": "How do you create an expandable/collapsible content section in HTML5?",
+        "description": "Creating expandable content.",
+        "answers": {
+            "answer_a": "<expand>",
+            "answer_b": "<accordion>",
+            "answer_c": "<details>",
+            "answer_d": "<toggle>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <details> element creates an interactive widget that the user can open and close.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 9563,
+        "question": "Which element represents preformatted text?",
+        "description": "Formatting text display.",
+        "answers": {
+            "answer_a": "<pre>",
+            "answer_b": "<format>",
+            "answer_c": "<code>",
+            "answer_d": "<text>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <pre> element displays text exactly as it is written in the HTML, preserving whitespace and formatting.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9718,
+        "question": "What attribute in HTML specifies where to open a linked document?",
+        "description": "Hyperlink behavior attributes.",
+        "answers": {
+            "answer_a": "href",
+            "answer_b": "target",
+            "answer_c": "src",
+            "answer_d": "location",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The 'target' attribute specifies where a linked document opens.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9742,
+        "question": "How can you create keyboard shortcuts for HTML elements?",
+        "description": "Accessibility and interaction enhancement.",
+        "answers": {
+            "answer_a": "accesskey attribute",
+            "answer_b": "shortcut attribute",
+            "answer_c": "keybind attribute",
+            "answer_d": "hotkey attribute",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The accesskey attribute enables keyboard shortcuts for elements.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9763,
+        "question": "What attribute is used to specify the relationship between the current document and a linked resource?",
+        "description": "Defining link relationships.",
+        "answers": {
+            "answer_a": "rel",
+            "answer_b": "href",
+            "answer_c": "link",
+            "answer_d": "src",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The 'rel' attribute specifies the relationship between the current document and the linked resource.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9648,
+        "question": "Which element defines additional details that can be shown or hidden?",
+        "description": "Interactive disclosure in HTML.",
+        "answers": {
+            "answer_a": "<detail>",
+            "answer_b": "<details>",
+            "answer_c": "<summary>",
+            "answer_d": "<hide>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <details> element creates a disclosure widget from which the user can reveal additional information.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9737,
+        "question": "How do you link a JavaScript file externally in an HTML document?",
+        "description": "External JavaScript linking.",
+        "answers": {
+            "answer_a": "<script src='file.js'>",
+            "answer_b": "<link href='file.js'>",
+            "answer_c": "<script href='file.js'>",
+            "answer_d": "<javascript file='file.js'>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "External JavaScript files are linked using the <script src='file.js'> tag.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9543,
+        "question": "Which HTML element represents a self-contained piece of content, typically with a caption?",
+        "description": "Semantic document structure.",
+        "answers": {
+            "answer_a": "<figure>",
+            "answer_b": "<caption>",
+            "answer_c": "<section>",
+            "answer_d": "<article>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "<figure> is typically used for images, diagrams, and illustrations with optional captions.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9806,
+        "question": "What is the purpose of the 'defer' attribute in a <script> tag?",
+        "description": "Understanding the 'defer' attribute in script tags.",
+        "answers": {
+            "answer_a": "Delays script execution until the HTML parsing is complete",
+            "answer_b": "Executes the script asynchronously",
+            "answer_c": "Loads the script in parallel with other resources",
+            "answer_d": "Prevents the script from executing",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The 'defer' attribute in a <script> tag delays script execution until the HTML parsing is complete.",
+        "tip": "Use 'defer' for scripts that can be executed after the document has been parsed.",
+        "tags": [
+            {
+                "name": "Undefined"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9588,
+        "question": "Which tag represents inserted text in HTML?",
+        "description": "Semantic formatting of edits.",
+        "answers": {
+            "answer_a": "<insert>",
+            "answer_b": "<added>",
+            "answer_c": "<ins>",
+            "answer_d": "<new>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <ins> element indicates text inserted into the document.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9770,
+        "question": "Which HTML attribute specifies the visible width, in characters, of an input field?",
+        "description": "Sizing input fields in forms.",
+        "answers": {
+            "answer_a": "size",
+            "answer_b": "width",
+            "answer_c": "maxlength",
+            "answer_d": "cols",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The 'size' attribute sets the visible width (in characters) of an input field.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9601,
+        "question": "Which tag is used to embed external web pages within an HTML page?",
+        "description": "Embedding external content.",
+        "answers": {
+            "answer_a": "<iframe>",
+            "answer_b": "<frame>",
+            "answer_c": "<embed>",
+            "answer_d": "<object>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <iframe> element is used to embed external web pages within an HTML page.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9705,
+        "question": "What is the correct HTML element for inserting line breaks?",
+        "description": "Text formatting elements.",
+        "answers": {
+            "answer_a": "<break>",
+            "answer_b": "<br>",
+            "answer_c": "<lb>",
+            "answer_d": "<newline>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <br> element inserts line breaks in HTML.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 9589,
+        "question": "Which element defines alternative content if scripting is disabled?",
+        "description": "Providing fallback content.",
+        "answers": {
+            "answer_a": "<alt>",
+            "answer_b": "<fallback>",
+            "answer_c": "<noscript>",
+            "answer_d": "<scriptalt>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "The <noscript> element shows alternative content when JavaScript is disabled.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 9657,
+        "question": "How do you specify multiple languages in an HTML document?",
+        "description": "HTML document languages.",
+        "answers": {
+            "answer_a": "multiple-lang attribute",
+            "answer_b": "multi-lang attribute",
+            "answer_c": "lang attribute in multiple tags",
+            "answer_d": "language attribute",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "Multiple languages in an HTML document are specified by setting the lang attribute on various tags.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "HTML",
+        "difficulty": "Medium"
+    }
+]
